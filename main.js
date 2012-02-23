@@ -1,3 +1,7 @@
+/*
+ * "Hello {1}, good {2}".pReplace(["Juan", "morning"]) -> "Hello Juan good morning"
+ */
+
 String.prototype.pReplace = function(params) {
         var ret = this;
         
